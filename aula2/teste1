@@ -1,0 +1,13 @@
+media = float(input("digite sua média: "))
+
+if media < 6:
+    if media > 3:
+        print("em exame final")
+    else:
+        print("reprovado")
+else:
+    print("aprovado")
+
+    
+
+    
