@@ -1,3 +1,4 @@
+
 def nome_funcao(parametro1, parametro2):
     #corpo da funcao
     return "saida da função"
@@ -5,6 +6,9 @@ def nome_funcao(parametro1, parametro2):
 def somar(n1, n2):
     resultado = n1 + n2
     return resultado
+
+def dividir(n1, n2):
+    return  n1 / n2
 
 def imprimir(texto):
     print(texto)
@@ -15,16 +19,4 @@ def LerInteiro():
 def pularlinha():
     print("\n")
 
-imprimir("digite um numero 1: ")
-n1 = LerInteiro()
-
-imprimir("digite um numero 2: ")
-n2 = LerInteiro()
-
-r = somar(5,10)
-
-pularlinha()
-imprimir(f"O valor da soma de {n1} + {n2} é {r}")
-pularlinha()
-    
     
